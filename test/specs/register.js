@@ -2,6 +2,7 @@ const { URL_REGISTER, URL_LOGIN, user, pageRegister, pageRegisterSelectors, page
 
 const { expect } = require('chai');
 
+
 describe('Register page', () => {
     it('should have the right title', () => {
         browser.url(URL_REGISTER);
